@@ -8,7 +8,7 @@ public class Company {
     private String name;
 
     public Company(ArrayList<Employee> employees, String name) {
-        this.employees = eoyees;
+        this.employees = employees;
         this.name = name;
     }
 

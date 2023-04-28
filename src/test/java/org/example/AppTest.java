@@ -4,6 +4,8 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+import java.util.ArrayList;
+
 /**
  * Unit test for simple App.
  */
@@ -33,6 +35,12 @@ public class AppTest
      */
     public void testApp()
     {
+        assertTrue( true );
+    }
+    @org.junit.Test
+    public void testCompany()
+    {
+        Company company = new Company(new ArrayList<>(), "company");
         assertTrue( true );
     }
 }

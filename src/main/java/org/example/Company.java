@@ -31,8 +31,4 @@ public class Company {
         return employees;
 
     }
-
-    public String getName() {
-        return name;
-    }
 }
